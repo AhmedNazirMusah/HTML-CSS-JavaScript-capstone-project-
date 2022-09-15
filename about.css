@@ -1,0 +1,101 @@
+.about-details {
+  padding: 4%;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  border: 2px solid rgba(221, 217, 217, 0.511);
+  text-align: center;
+}
+
+.center {
+  text-align: center;
+}
+
+.link-below {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 20px;
+}
+
+.mail {
+  color: rgba(0, 0, 0, 0.806);
+  font-size: 18px;
+  transition: all 300ms ease-in-out;
+  font-weight: 800;
+}
+
+.mail:hover {
+  text-decoration: underline;
+  color: orangered;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 10% 10%;
+  text-align: center;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.215);
+}
+
+.logo-container h2 {
+  font-size: 20px;
+}
+
+.logo-border {
+  border: 2px solid rgba(0, 0, 0, 0.132);
+  padding: 5%;
+  width: 100%;
+}
+
+.logo-border h2 {
+  font-weight: 900;
+  font-size: 40px;
+}
+
+.institute {
+  justify-content: center;
+}
+
+.last-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5%;
+}
+
+.last-img {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  padding: 5%;
+  column-gap: 1.5rem;
+}
+
+.over-pic1 {
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.525) 0), url("images/beautiful-young-students2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+  width: 200px;
+  transition: all 300ms ease-in-out;
+}
+
+.over-pic2 {
+  background-image: linear-gradient(180.45deg, rgba(182, 175, 175, 0), rgba(249, 52, 52, 0.525) 0), url("images/beautiful-young-students\ \(1\).jpg");
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 200px;
+  background-size: cover;
+}
+
+.over-pic1:hover {
+  background-image: url("images/beautiful-young-students\ \(1\).jpg");
+  transition: all 300ms ease-in-out;
+}
+
+.over-pic2:hover {
+  background-image: url("images/beautiful-young-students2.jpg");
+  transition: all 300ms ease-in-out;
+}
