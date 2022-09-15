@@ -337,7 +337,7 @@ footer h3 {
   justify-content: center;
 }
 
-@media screen and (min-width: 568px) {
+@media screen and (min-width: 768px) {
   .abt-it {
     background: rgba(28, 26, 26, 0.897);
     color: #fff;
