@@ -11,7 +11,7 @@ In this project, you will set up a web site for an institution.
 
 ## Live Demo 
 
-[Live Demo Link]()
+[Live Demo Link](https://ahmednazirmusah.github.io/HTML-CSS-JavaScript-capstone-project-/)
 
 ## Getting Started
 
